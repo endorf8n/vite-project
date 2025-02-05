@@ -31,6 +31,10 @@ button,
   box-shadow: 0 0 8px rgba(0, 150, 136, 0.5);
 }
 
+input[name="delay"] {
+  width: 240px;
+}
+
 .timer {
   display: flex;
   gap: 20px;
@@ -52,4 +56,11 @@ button,
 .field {
   display: flex;
   flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 240px;
 }
