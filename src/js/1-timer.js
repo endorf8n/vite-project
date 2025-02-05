@@ -48,7 +48,7 @@ refs.button.addEventListener("click", () => {
 
     if (diff <= 0) {
       clearInterval(intervalId);
-      refs.button.disabled = true;
+      refs.input.disabled = false;
       return;
     }
     const days = convertMs(diff).days;
